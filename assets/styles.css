@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ff0044;
+    background-color: #000;
 }
 
 header {
@@ -97,6 +97,7 @@ nav > button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: calc(100vh - 240px);
 }
 
 .messages {
@@ -167,7 +168,7 @@ footer > p > a {
     color: white;
 }
 
-@media (max-width: 748px) {
+@media (max-width: 1024px) {
     .ham-menu {
         display: block;
     }
@@ -177,9 +178,17 @@ footer > p > a {
     .collapsed-menu {
         display: flex;
     }
+    .vboard {
+        height: 100px;
+        width: 100px;
+        font-size: 3rem;
+    }
+    .board {
+        height: calc(100vh - 300px);
+    }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
     .vboard {
         height: 80px;
         width: 80px;
