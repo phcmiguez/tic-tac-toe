@@ -141,6 +141,11 @@ nav > button:hover {
     cursor: pointer;
 }
 
+.vboard:hover {
+    background-color: #ff0044;
+    transition: 0.4s;
+}
+
 .win {
     background-color: lightgreen;
 }
@@ -171,9 +176,11 @@ footer > p > a {
 @media (max-width: 1024px) {
     .ham-menu {
         display: block;
+        transition: 1s;
     }
     .menu-option {
         display: none;
+        transition: 1s;
     }
     .collapsed-menu {
         display: flex;
