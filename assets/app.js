@@ -59,7 +59,7 @@ function handleWin(regions) {
     document.querySelector(`[data-region="${region}"]`).classList.add('win')
   })
   turnPlayer = turnPlayer === 'ONE' ? 'TWO' : 'ONE'
-  document.getElementById('playerPanel').innerHTML = `Player ${turnPlayer} has won!`
+  document.getElementById('playerPanel').innerHTML = `🥇 Player ${turnPlayer} has won! 🥇`
 
 }
 
@@ -78,7 +78,7 @@ function handleBoardClick(e) {
   const column = rowColumnPair[1]
   
   if(turnPlayer === 'ONE'){
-    squareBoard.innerText = 'X'
+    squareBoard.innerHTML = '<span class="playerOne">X</span>'
     gameBoard[row][column] = 'X'
     turnPlayer = 'TWO'
     updateTitle()

@@ -144,6 +144,11 @@ nav > button:hover {
     cursor: pointer;
 }
 
+.playerOne {
+    color: #fff;
+}
+
+
 .vboard:hover {
     background-color: #ff0044;
     transition: 0.4s;
