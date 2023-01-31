@@ -126,8 +126,8 @@ nav > button:hover {
 }
 
 .vboard {
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     background-color: blueviolet;
     display: flex;
     gap: 10px;
@@ -186,8 +186,8 @@ footer > p > a {
         display: flex;
     }
     .vboard {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         font-size: 3rem;
     }
     .board {
@@ -197,8 +197,8 @@ footer > p > a {
 
 @media (max-width: 768px) {
     .vboard {
-        height: 80px;
-        width: 80px;
+        height: 60px;
+        width: 60px;
         font-size: 3rem;
     }
     footer, .collapsed-menu {
