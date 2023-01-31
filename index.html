@@ -30,28 +30,32 @@
     </div>
 
     <div class="messages">
-        <h3>Player <span class="player">ONE</span> Turn!</h3>
+        <h3 id="playerPanel">Player <span id="player"></span> Turn!</h3>
     </div>
 
     <div class="board">
         <div class="container">
-            <div class="vboard"></div>
-            <div class="vboard"></div>
-            <div class="vboard"></div>
+            <div data-region="0.0" class="vboard cursor-pointer"></div>
+            <div data-region="0.1" class="vboard cursor-pointer"></div>
+            <div data-region="0.2" class="vboard cursor-pointer"></div>
+
             <div class="break"></div>
-            <div class="vboard"></div>
-            <div class="vboard"></div>
-            <div class="vboard"></div>
+
+            <div data-region="1.0" class="vboard cursor-pointer"></div>
+            <div data-region="1.1" class="vboard cursor-pointer"></div>
+            <div data-region="1.2" class="vboard cursor-pointer"></div>
+
             <div class="break"></div>
-            <div class="vboard"></div>
-            <div class="vboard"></div>
-            <div class="vboard"></div>
+
+            <div data-region="2.0" class="vboard cursor-pointer"></div>
+            <div data-region="2.1" class="vboard cursor-pointer"></div>
+            <div data-region="2.2" class="vboard cursor-pointer"></div>
         </div>
     </div>
 
     <footer>
         <p>Developed with HTML5, CSS3 and JavaScript by <a href="https://github.com/phcmiguez">Pedro H C Miguez </a>🤓</p>
     </footer>
-<script src="assets/app.js"></script>
+<script src="assets/app.js" defer></script>
 </body>
 </html>

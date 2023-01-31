@@ -112,7 +112,7 @@ nav > button:hover {
     text-align: center;
 }
 
-.player {
+#player {
     color: #ff0044;
 }
 
@@ -138,6 +138,9 @@ nav > button:hover {
     font-size: 6rem;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cursor-pointer {
     cursor: pointer;
 }
 
